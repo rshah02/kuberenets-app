@@ -35,7 +35,7 @@ jobs:
           git config --global credential.helper store
           echo "https://${GIT_TOKEN}:x-oauth-basic@github.com" > ~/.git-credentials
           
-          # Remove any existing gitops directory
+          # Remove any existing gitops directory if exists
           rm -rf gitops
           
           # Clone repository using HTTPS URL without token
