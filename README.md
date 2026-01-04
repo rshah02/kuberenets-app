@@ -1,13 +1,9 @@
-# Kubernetes CICD Tutorial
-
-This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://youtu.be/GlhK7mz5IJo)** or **[Written Article](https://rslim087a.github.io/rayanslim/lesson.html?course=kubernetes-cicd-course&lesson=introduction)**.
-
 ## Prerequisites
 
 To follow along with this tutorial, you'll need:
 
-- kubectl installed and configured ([https://youtu.be/IBkU4dghY0Y](https://youtu.be/IBkU4dghY0Y))
-- Helm installed: ([https://rslim087a.github.io/rayanslim/lesson.html?course=prometheus-grafana-monitoring-course&lesson=helm-installation](https://rslim087a.github.io/rayanslim/lesson.html?course=prometheus-grafana-monitoring-course&lesson=helm-installation))
+- kubectl installed and configured 
+- Helm installed
 - A GitHub account: ([https://github.com/](https://github.com/))
 
 ## Install ArgoCD
@@ -64,7 +60,3 @@ kubectl create secret docker-registry ghcr-secret \\
   --docker-password=YOUR_PAT \\
   --namespace=default
 ```
-
-### Become a Cloud and DevOps Engineer
-
-Visit[https://rslim087a.github.io/rayanslim](https://rslim087a.github.io/rayanslim)
